@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Partial Payment Design</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fc;
+            font-family: Arial, sans-serif;
+        }
+
+        .card-custom {
+            background-color: #fcfdff;
+            border-radius: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: 100%;
+            max-width: 400px;
+            margin: 50px auto;
+        }
+
+        .card-custom h5 {
+            font-weight: bold;
+        }
+
+        .custom-dropdown {
+            width: 100%;
+        }
+
+        .info-text {
+            font-size: 14px;
+            color: #6c757d;
+        }
+
+        .total-section {
+            margin-top: 10px;
+        }
+
+        .btn-back {
+            margin-top: 35px;
+         }
+    </style>
+</head>
+<body>
+    <div class="card-custom">
+        <h5>Partial Payment</h5>
+        <p>Partial payment with Consumer Bank AS or pay 53 995.- now</p>
+
+        <div class="mb-3">
+            <label for="repaymentPeriod" class="form-label">Select monthly amount and repayment period</label>
+            <select class="form-select custom-dropdown" id="repaymentPeriod">
+                <option selected>9 311.-/month for 6 months</option>
+                <option>7 200.-/month for 9 months</option>
+                <option>5 600.-/month for 12 months</option>
+            </select>
+        </div>
+
+        <div class="total-section">
+            <p class="mb-1"><strong>Effective interest rate:</strong> 12.43%</p>
+            <p class="mb-1"><strong>Cost:</strong> 1 870.-</p>
+            <p><strong>In total:</strong> 55 865.-</p>
+        </div>
+
+        <p class="info-text">
+            Partial payment from Santander Consumer Bank AS presupposes the conclusion of a credit agreement with a credit card after credit assessment.
+        </p>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+        <div class="container">
+            <div class="row">
+              <div class="col text-center">
+                <button class="btn btn-info">Back to the product</button>
+              </div>
+            </div>
+          </div>
+    </div>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
